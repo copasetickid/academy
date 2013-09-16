@@ -15,5 +15,9 @@
 /log/*.log
 /tmp
 
-##Ignore the default readme doc
+# gnore the default readme doc
 README.rdoc
+
+# Rails
+public/assets/*
+.sass-cache

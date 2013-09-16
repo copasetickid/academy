@@ -1,7 +1,7 @@
 Academy::Application.routes.draw do
 
-  get "home/lander" => 'home#lander', :as => home_lander
-  get "home/index" => 'home#index', :as => home
+  get "home/lander" => 'home#lander', :as => :home_lander
+  get "home/index" => 'home#index', :as => :home
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -9,5 +9,7 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require_tree .
+ *= require_tree ./lib/normalize
+ *= require_tree ./lib/main
+ *= require_tree home
  */

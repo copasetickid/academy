@@ -1,6 +1,7 @@
 Academy::Application.routes.draw do
-  get "home/lander"
-  get "home/index"
+
+  get "home/lander" => 'home#lander', :as => home_lander
+  get "home/index" => 'home#index', :as => home
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -41,7 +42,7 @@ Academy::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'

@@ -74,18 +74,21 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+   /* border-bottom: 20px solid #e44d26;*/
+   border-bottom: 20px solid #175FB8;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+  /*  border-top: 20px solid #e44d26;*/
+  border-top: 20px solid #175FB8;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    /*# background: #f16529;*/
+    background-color: #175FB8;
 }
 
 .title {
@@ -111,7 +114,8 @@ nav a {
     font-weight: bold;
 
     color: white;
-    background: #e44d26;
+   /* background: #e44d26;*/
+   background-color: #C7001E;
 }
 
 nav a:hover,

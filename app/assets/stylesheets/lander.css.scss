@@ -1,0 +1,30 @@
+//Masonry Styles
+.masonary-container{
+  background: #FF0000;
+  box-sizing: border-box;
+
+}
+
+.masonary-container .item {
+  width: 60px;
+  height: 60px;
+  float: left;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.item.w2 { width:  120px; }
+.item.w3 { width:  180px; }
+.item.w4 { width:  240px; }
+
+.item.h2 { height: 100px; }
+.item.h3 { height: 130px; }
+.item.h4 { height: 180px; }
+
+// .item{
+//   width: 25%;
+// }
+
+// .item.w2 {
+//   width: 50%;
+// }

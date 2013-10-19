@@ -4,4 +4,7 @@ class HomeController < ApplicationController
 
   def index
   end
+
+  def classes
+  end
 end

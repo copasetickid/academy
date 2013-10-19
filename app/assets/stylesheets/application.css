@@ -13,4 +13,5 @@
  *= require ./lib/main
  *= require home
  *= require lander
+ *= require payments
  */

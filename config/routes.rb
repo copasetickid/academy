@@ -6,6 +6,12 @@ Academy::Application.routes.draw do
 
   get '/classes' => 'home#classes', :as => :classes
 
+  get '/checkout' => 'payments#new', :as => :checkout
+
+  post '/payment' => 'payments#create', :as => :create_class_order
+
+  get '/confirm/class' => 'payments#final', :as => :class_confirm
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

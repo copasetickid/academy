@@ -166,11 +166,11 @@ nav a:hover {
    ========================================================================== */
 
 #home-lander {
-    background-image: url('/assets/twerk.jpg');
+    background-image: url('twerk.jpg');
 }
 
 #home-classes{
-    background-image: url('/assets/miley-twerk.jpg');
+    background-image: url('miley-twerk.jpg');
 }
 
 .landing {

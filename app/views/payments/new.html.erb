@@ -1,14 +1,18 @@
-<%= form_tag create_class_order_path do %>
 
-  <article>
-    <label class="amount">
-      <span>Amount: $65.00</span>
-    </label>
-  </article>
+<div class="landing"
+<h1>Purchase Your Class</h1>
+  <%= form_tag create_class_order_path do %>
 
-  <script src="https://checkout.stripe.com/v2/checkout.js" class="stripe-button"
-          data-key="pk_test_DDiPp2qhX2sdsoRuJxPEkMvN"
-          data-description="Twerk Academy Class"
-          data-amount="6500">
-  </script>
-<% end %>
+    <article>
+      <label class="amount">
+        <span>Amount: $65.00</span>
+      </label>
+    </article>
+
+    <script src="https://checkout.stripe.com/v2/checkout.js" class="stripe-button"
+            data-key="pk_test_DDiPp2qhX2sdsoRuJxPEkMvN"
+            data-description="Twerk Academy Class"
+            data-amount="6500">
+    </script>
+  <% end %>
+</div>

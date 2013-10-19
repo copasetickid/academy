@@ -74,21 +74,19 @@ body {
    =================== */
 
 .header-container {
-   /* border-bottom: 20px solid #e44d26;*/
-   border-bottom: 20px solid #175FB8;
+    /*border-bottom: 20px solid #e44d26;*/
 }
 
 .footer-container,
-.main aside {
-  /*  border-top: 20px solid #e44d26;*/
-  border-top: 20px solid #175FB8;
-}
+/*.main aside {
+    border-top: 10px solid #a50b00 #761212;
+}*/
 
 .header-container,
 .footer-container,
 .main aside {
-    /*# background: #f16529;*/
-    background-color: #175FB8;
+    /*background: #f16529;*/
+    background: #a50b00;
 }
 
 .title {
@@ -114,8 +112,7 @@ nav a {
     font-weight: bold;
 
     color: white;
-   /* background: #e44d26;*/
-   background-color: #C7001E;
+    background: #e44d26;
 }
 
 nav a:hover,
@@ -145,8 +142,13 @@ nav a:hover {
 }
 
 .footer-container footer {
-    color: white;
-    padding: 20px 0;
+    color: #000;
+    padding: 5px 0;
+    font-size: 10px;
+    text-align: center;
+
+    position: relative;
+    margin-top: 270px;
 }
 
 /* ===============
@@ -161,14 +163,38 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background-image: url('/assets/twerk.jpg');
+}
+
+.landing {
+    width: 75%; 
+    height: 75%; 
+    padding: 15px; 
+    margin: 0 auto; 
+    -moz-border-radius: 25px; 
+    border-radius: 25px; 
+    /*background-color: #f4f4f4;*/
+    background-color: rgba(244, 244, 244, 0.5);
+    text-align: center;
+    /*opacity: .7;*/
+}
+
+.landing-btn {
+    border-radius: 10px; 
+    padding: 7px 10px; 
+    margin: 0 auto; 
+    background-color: #9c3005; 
+    color: #f4f4f4; 
+    font-weight: bold;
+    border:1px solid #832804;
+}
 
 
+.center {
+    text-align: center;
 
-
-
-
-
-
+}
 
 
 

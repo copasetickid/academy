@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:800);
+
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
@@ -163,8 +165,12 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
-body {
+.landing-pic {
     background-image: url('/assets/twerk.jpg');
+}
+
+.classes-pic {
+    background-image: url('/assets/miley-twerk.jpg');
 }
 
 .landing {
@@ -190,14 +196,29 @@ body {
     border:1px solid #832804;
 }
 
+.class-btn {
+    border-radius: 10px; 
+    padding: 5px 5px; 
+    margin: 0 auto; 
+    background-color: #a10000; 
+    color: #f4f4f4; 
+    font-weight: lighter;
+    border:1px solid #6f0303;
+}
 
 .center {
     text-align: center;
 
 }
 
+.class-h {
+    font-family: 'Dosis', sans-serif;
+}
 
-
+.class-h1 {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
 
 
 

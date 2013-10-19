@@ -165,11 +165,14 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
-#home-lander {
+body#home-lander {
     background-image: image-url('twerk.jpg');
 }
 
-#home-classes{
+body#home-classes,
+body#payments-new,
+body#payments-create,
+body#payments-final {
     background-image: image-url('miley-twerk.jpg');
 }
 

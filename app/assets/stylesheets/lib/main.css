@@ -165,21 +165,21 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
-.landing-pic {
+#home-lander {
     background-image: url('/assets/twerk.jpg');
 }
 
-.classes-pic {
+#home-classes{
     background-image: url('/assets/miley-twerk.jpg');
 }
 
 .landing {
-    width: 75%; 
-    height: 75%; 
-    padding: 15px; 
-    margin: 0 auto; 
-    -moz-border-radius: 25px; 
-    border-radius: 25px; 
+    width: 75%;
+    height: 75%;
+    padding: 15px;
+    margin: 0 auto;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
     /*background-color: #f4f4f4;*/
     background-color: rgba(244, 244, 244, 0.6);
     text-align: center;
@@ -187,21 +187,21 @@ nav a:hover {
 }
 
 .landing-btn {
-    border-radius: 10px; 
-    padding: 7px 10px; 
-    margin: 0 auto; 
-    background-color: #9c3005; 
-    color: #f4f4f4; 
+    border-radius: 10px;
+    padding: 7px 10px;
+    margin: 0 auto;
+    background-color: #9c3005;
+    color: #f4f4f4;
     font-weight: bold;
     border:1px solid #832804;
 }
 
 .class-btn {
-    border-radius: 10px; 
-    padding: 5px 5px; 
-    margin: 0 auto; 
-    background-color: #a10000; 
-    color: #f4f4f4; 
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin: 0 auto;
+    background-color: #a10000;
+    color: #f4f4f4;
     font-weight: lighter;
     border:1px solid #6f0303;
 }

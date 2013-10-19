@@ -6,7 +6,19 @@
 <head>
   <title>Academy</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "https://js.stripe.com/v2/", "application" %>
+  <script type="text/javascript">
+    // this identifies your website in the createToken call below
+    Stripe.setPublishableKey('pk_test_DDiPp2qhX2sdsoRuJxPEkMvN');
+  </script>
+
+ <script src="//connect.soundcloud.com/sdk.js"></script>
+ <script>
+    SC.initialize({ client_id: "84e502306f038dd3e647a92f37b26d85" });
+  </script>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+
+
   <%= csrf_meta_tags %>
 </head>
 <body class="classes-pic"> 
